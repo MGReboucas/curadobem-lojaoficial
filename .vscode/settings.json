@@ -1,0 +1,70 @@
+{
+  //THEME AND ICONS
+  "workbench.iconTheme": "symbols", // Set the icon theme
+  "workbench.colorTheme": "Dracula Theme", // Set the color theme
+  "symbols.hidesExplorerArrows": false, // hide exporer arrow
+  //EDITOR FONT AND TYPOGRAPHY
+  "editor.fontFamily": "JetBrains Mono", // font familly
+  "editor.fontSize": 12, // font size
+  "editor.lineHeight": 1.8, // line height
+  "editor.rulers": [80, 120], // vertical rulers
+  "editor.renderLineHighlight": "gutter", // Highlight line number
+  "editor.fontLigatures": true, // Enable font ligatures
+  //WORKBENCH AND UI VISIBILITY
+  "workbench.startupEditor": "newUntitledFile", // Open a new untitled file on startup
+  "workbench.editor.labelFormat": "short", // Shorten the tab labels
+  "explorer.compactFolders": false, // folders as separate entities
+  "editor.semanticHighlighting.enabled": false, // Disable semantic highlighting
+  "breadcrumbs.enabled": false, // Hide the file path navigation bar
+  "workbench.activityBar.location": "hidden", // Hide the Activity Bar
+  "editor.minimap.enabled": false, // Hide the code overview minimap
+  "editor.scrollbar.vertical": "hidden", // Hide the vertical scrollbar
+  "editor.scrollbar.horizontal": "hidden", // Hide the horizontal scrollbar
+  "workbench.statusBar.visible": true, // Hide the bottom Status Bar
+  "window.menuBarVisibility": "compact", // Show the menu bar
+  // APC CUSTOMIZE UI++ EXTENSION SETTINGS need extension
+  "apc.header": {
+    "height": 36 // Set the height of the custom header/title bar.
+  },
+  "apc.listRow": {
+    "height": 24 // Set the row height for lists (like Explorer and search results).
+  },
+  "apc.stylesheet": {
+    ".tittle-label > h2 ": "display: none", // main title in the title bar.
+    ".editor-actions": "display: none", // actions or buttons in the editor header.
+    ".pane-body": "padding: 8px", // padding inside the side panel bodies.
+    ".pane-header": "padding: 0 8px", // horizontal padding to side panel headers.
+    ".split-view-view:first-child .pane-header": "display: none !important;", // header of the first split view pane.
+    ".monaco-list-row": "border-radius: 4px" // Apply rounded corners to list rows.
+  },
+  // OTHER WORKBENCH SETTINGS
+  "window.commandCenter": false, // Disable search/command center in the title bar.
+  "workbench.layoutControl.enabled": false, // Hide the layout control button (top right).
+  // EXTENSION SETTINGS
+  "liveServer.settings.port": 5501, // Set the default port for the Live Server.
+  // PRETTIER FORMATTING CONFIGURATION React/JS
+  "editor.formatOnSave": true, // Automatically format the document when saving the file.
+  "editor.tabSize": 2, // Set the number of spaces a tab equals to 2.
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true, // Use single quotes for strings.
+  "prettier.semi": false, // Do not print semicolons at the end of statements.
+  "prettier.trailingComma": "all", // Print trailing commas wherever valid in ES5 (helps with Git diffs).
+  "prettier.arrowParens": "avoid", // Omit parentheses around a single arrow function parameter.
+  "github.copilot.enable": {
+    "*": true,
+    "python": true
+  },
+  "github.copilot.inlineSuggest.enable": true,
+  "editor.inlineSuggest.enabled": true
+}

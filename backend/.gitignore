@@ -1,0 +1,74 @@
+# 🧠 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔧 Ambiente virtual
+venv/
+.env/
+.env.*
+.venv/
+ENV/
+env/
+
+# 📦 Build / distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 🗄️ Banco local (se usar SQLite em dev)
+*.sqlite3
+
+# 🔐 Variáveis sensíveis
+.env
+
+# 🧪 Testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 📊 Logs
+*.log
+logs/
+
+# 🧠 IDEs / Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🐳 Docker
+docker-compose.override.yml
+
+# 🔄 Alembic migrations (opcional ignorar versões locais)
+# alembic/versions/
+
+# 📁 Uploads / arquivos temporários
+uploads/
+media/
+tmp/
+temp/
+
+# 📧 Emails / templates compilados
+*.eml
+
+# 🧬 Sistema operacional
+.DS_Store
+Thumbs.db
+
+# 📦 Cache de dependências
+pip-wheel-metadata/
+
+# 🔐 Certificados
+*.pem
+*.key
+
+# 🧾 Arquivos de configuração local
+*.local
+
+# 🚫 Arquivos grandes (opcional)
+*.zip
+*.tar
+*.gz
+*.rar

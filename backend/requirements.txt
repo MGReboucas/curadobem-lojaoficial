@@ -1,0 +1,35 @@
+# Framework principal
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# Validação e configs
+pydantic==2.6.1
+pydantic-settings==2.2.1
+email-validator==2.1.0.post1
+
+# Banco de dados
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9
+
+# Migrations
+alembic==1.13.1
+
+# Segurança
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Requisições externas (frete, pagamento, etc)
+httpx==0.27.0
+
+# Envio de email
+aiosmtplib==3.0.1
+jinja2==3.1.3
+
+# Utilidades
+python-multipart==0.0.9
+
+# Testes
+pytest==8.0.2
+
+# (opcional) ambiente
+python-dotenv==1.0.1s
